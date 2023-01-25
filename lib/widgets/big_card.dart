@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../screens/matches.screen.dart';
+import '../pages/gridview_pages.dart';
 
 class BigCard extends StatelessWidget {
   final SoccerMatch match;
@@ -17,8 +17,8 @@ class BigCard extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Card(
             child: Row(
-          mainAxisAlignment: MainAxisAlignment.start, // todo: nuevas lineas
-          mainAxisSize: MainAxisSize.max, // todo: nuevas lineas
+          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisSize: MainAxisSize.max,
           children: [
             Expanded(
               flex: 1,

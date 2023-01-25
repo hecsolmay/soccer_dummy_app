@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../widgets/big_card.dart';
 
-class Matches extends StatelessWidget {
-  const Matches({super.key});
+class GridViewPage extends StatelessWidget {
+  const GridViewPage({super.key});
 
   @override
   Widget build(BuildContext context) {
